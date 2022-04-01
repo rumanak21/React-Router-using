@@ -10,7 +10,7 @@ const Friend = (props) => {
 
         // const path = `/friends/${username}`
 
-        navigate(`/friends/${username}`);
+        navigate(`/friend/${id}`);
     }
 
     
