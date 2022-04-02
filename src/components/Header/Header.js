@@ -8,8 +8,9 @@ const Header = () => {
 
             <CustomLink to ="/">Home</CustomLink>
             <CustomLink to ="/friends">Friends</CustomLink>
+            <CustomLink to ="/posts">Posts</CustomLink>
             <CustomLink to ="/about">About</CustomLink>
-            <CustomLink to ="/friend/:friendId">FD</CustomLink>
+            
         </div>
     );
 };

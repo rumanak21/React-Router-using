@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 const FriendDetail = () => {
 
     let {friendId} = useParams()
-    const [friend, setFriend] = useState([])
+    const [friend, setFriend] = useState({})
     console.log(friend)
     useEffect(()=>{
         let URL = `https://jsonplaceholder.typicode.com/users/${friendId}`
